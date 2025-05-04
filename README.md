@@ -40,7 +40,7 @@ source face_env\Scripts\activate
 ```
 
 This will activate the virtual enviroment.
-8. do both commands (u can copy and paste this into terminal), 
+8. Paste commands in terminal, 
 ```
 pip install numpy==1.23.5
 pip install cmake
@@ -67,7 +67,7 @@ python recognise.py
 ```
 
 14. Once youre done running the face_env eniroment,
- (Optional) go back to the administrator powershell and run:
+ (Optional) Go back to the administrator powershell and run:
 ```
 Set-ExecutionPolicy Restricted
 ```
