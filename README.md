@@ -34,7 +34,10 @@ so type A and enter.
 python3.10 -m venv face_env
 ```
 
-7. Then do `source face_env\Scripts\activate`
+7. Then do 
+```
+source face_env\Scripts\activate
+```
 
 This will activate the virtual enviroment.
 8. do both commands (u can copy and paste this into terminal), 
@@ -54,15 +57,21 @@ pip install "path/to/wheel/file"
 ```
 
 12. Finally, do 
-`pip install face-recognition`
+```
+pip install face-recognition
+```
 
 13. To run example script do 
-`python recognise.py`
+```
+python recognise.py
+```
 
 14. Once youre done running the face_env eniroment,
  (Optional) go back to the administrator powershell and run:
-`Set-ExecutionPolicy Restricted`
+```
+Set-ExecutionPolicy Restricted
+```
 
-This is done for safety reasons but you cant use the venv in this mode.
+This is done for safety reasons but you cant source the venv in this mode.
 
 Thank you for reading this and feel free to report any errors in issues, have a good day : )
